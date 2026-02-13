@@ -1,0 +1,41 @@
+-- Student Database Management System
+-- Author: Dhruv
+-- Description: Basic Crud operations using sql
+
+-- Creation Database 
+CREATE DATABASE student_db;
+USE student_db;
+
+--Create Table
+CREATE TABLE students(
+roll no INT PRIMARY KEY;
+name VARCHAR(50)NOT NULL;
+subject1 INT
+subject2 INT
+subject3 INT
+};
+--Insert Sample data
+INSERT INTO students VALUES(101,'rahul,85,78,90);
+INSERT INTO students VALUES(102,'arman,60,70,65);
+INSERT INTO students VALUES(103,'priya,92,88,95);
+--View all students
+SELECT*FROM students;
+--calculate total and percentage
+SELECT roll_no,name,
+(subject1+subject2+subject3) AS total,
+ROUND((subjects1+subject2+subject3)/3,2) AS percentage FROM students;
+--assign grade using CASE
+SELECT name,
+CASE
+WHEN(subject1+subject2+subject3)/3>=80 THEN 'A'
+WHEN(subject1+subject2+subject3)/3>=60 THEN 'B'
+ELSE 'C'
+END AS grade
+FROM students;
+--Update example
+UPDATE students
+SET subjects= 88
+WHERE roll_no= 101;
+--Delete Example
+DELETE FROM students
+WHERE roll_no= 102;
