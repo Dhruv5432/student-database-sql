@@ -17,7 +17,7 @@ It performs CRUD operations (Create, Read, Update, Delete) on student records.
 - Delete student record
 - Calculate total, percentage, and grade using SQL queries
 
-## lanuage Used
+## Lanuage Used
 - CREATE DATABASE
 - CREATE TABLE
 - INSERT
@@ -26,7 +26,7 @@ It performs CRUD operations (Create, Read, Update, Delete) on student records.
 - DELETE
 - CASE statement
 - Aggregate calculations
-## how to run
+## How to run
 1. Open MySQL or any SQL environment.
 2. Copy the code from student_db.sql.
 3. Execute the queries step by step.
