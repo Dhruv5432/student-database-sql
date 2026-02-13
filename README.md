@@ -30,3 +30,5 @@ It performs CRUD operations (Create, Read, Update, Delete) on student records.
 1. Open MySQL or any SQL environment.
 2. Copy the code from student_db.sql.
 3. Execute the queries step by step.
+---
+Author: Dhruv
